@@ -21,4 +21,20 @@
     max-width:700px;
     margin:10px auto 20px;
     line-height:1.4;
+} 
+
+@media(max-width:800px){
+    .hero_text h1{
+        font-size:40px;
+    }
+}
+@media(max-width:670px){
+    .hero_text h1{
+        max-width:400x;
+        margin:auto;
+    }
+    .hero_text p{
+        font-size:14px;
+        margin:15px auto 30px; 
+    }
 }

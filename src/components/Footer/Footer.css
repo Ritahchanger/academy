@@ -13,3 +13,21 @@
     display:inline-block;
     margin-left:20px;
 }
+
+
+/* MEDIA QUERY */
+
+
+@media(max-width:600px){
+    .footer{
+        flex-direction: column;
+        display:flex;
+        justify-content: center;
+    }
+    .footer ul li{
+        margin:10px;
+    }
+    .footer ul{
+        margin-top:10px;
+    }
+}

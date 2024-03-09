@@ -39,3 +39,16 @@ a{
   background:#212EA0;
   color:#fff;
 }
+
+
+/* MEDIA QUERY */
+
+@media(max-width:1080px){
+  .container{
+    padding-left:2%;
+    padding-right:2%;
+  }
+  .btn{
+    padding:14px 22px;
+  }
+}
